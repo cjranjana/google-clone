@@ -3,8 +3,6 @@ import './Search.css'
 import { Search as SearchIcon } from "@mui/icons-material"
 import { Mic as MicIcon } from '@mui/icons-material'
 import { Button } from '@mui/material'
-// import { useHistory as history } from 'react-router-dom/cjs/react-router-dom.min'
-// import { useHistory } from 'react-router-dom/cjs/react-router-dom'
 import {useHistory} from 'react-router-dom'
 import { useStateValue } from './StateProvider'
 import { actionTypes } from './reducer'
